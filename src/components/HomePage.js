@@ -7,7 +7,7 @@ import RightArrowSvg from "../assets/rightArrow.svg";
 const HomePage = () => {
 	return (
 		<div className="bg-gradient-to-tl from-neutral-900 via-neutral-700 to-neutral-900">
-			<div className="grid grid-cols-2 items-center fixed w-full px-4 py-4">
+			<div className="grid grid-cols-2 fixed w-full px-4 sm:px-8 py-4 sm:py-8">
 				<Logo />
 				<div className="flex flex-col items-end self-center">
 					<img
@@ -23,12 +23,12 @@ const HomePage = () => {
 				</div>
 			</div>
 			<div className="h-screen flex flex-col items-center justify-center">
-				<h1 className="text-white font-semibold text-5xl sm:text-7xl md:text-8xl lg:text-9xl 2xl:text-[12rem] mb-4 z-10">
+				<h1 className="text-white font-semibold text-5xl sm:text-7xl md:text-8xl lg:text-9xl 2xl:text-[12rem] mb-4 z-10 cursor-default">
 					MiniGamesHub
 				</h1>
 				<button
 					type="button"
-					className="text-white bg-blue-700 hover:bg-blue-800 font-semibold rounded-lg text-2xl sm:text-4xl px-5 py-2.5 me-2 mb-2 opacity-100 z-10 flex items-center justify-center"
+					className="text-white bg-blue-700 hover:bg-blue-800 font-semibold rounded-lg text-2xl sm:text-4xl px-6 py-3.5 me-2 mb-2 opacity-100 z-10 flex items-center justify-center"
 				>
 					Play Games{" "}
 					<img
